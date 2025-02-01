@@ -1,2 +1,2 @@
-# BitCredit
-<a href="bitcredit.org">BitCredit</a>
+# bitcredit
+<a href="https://bitcredit.org">bitcredit</a>
