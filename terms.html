@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - BitCredit</title>
+    <link rel="icon" type="image/jpeg" href="bitcredit.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --yellow-primary: #F5B800;
+            --yellow-bright: #FFD32A;
+            --yellow-dark: #CC9900;
+            --black: #0D0D0D;
+            --black-light: #1A1A1A;
+            --white: #FFFFFF;
+            --gray: #888888;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.7;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1.5rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(13, 13, 13, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(245, 184, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+        }
+
+        .logo-text {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--white);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            color: var(--yellow-primary);
+        }
+
+        .back-link {
+            color: var(--yellow-primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: opacity 0.3s ease;
+        }
+
+        .back-link:hover {
+            opacity: 0.8;
+        }
+
+        /* Content */
+        .terms-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 120px 5% 80px;
+        }
+
+        .terms-header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(245, 184, 0, 0.2);
+        }
+
+        .terms-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .terms-header h1 span {
+            color: var(--yellow-primary);
+        }
+
+        .terms-header p {
+            color: var(--gray);
+        }
+
+        .terms-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .terms-section h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--yellow-primary);
+            margin-bottom: 1rem;
+        }
+
+        .terms-section p {
+            color: var(--gray);
+            margin-bottom: 1rem;
+        }
+
+        .terms-section ul {
+            color: var(--gray);
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .terms-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--black-light);
+            border-top: 1px solid rgba(245, 184, 0, 0.1);
+            padding: 2rem 5%;
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--gray);
+            font-size: 0.85rem;
+        }
+
+        footer span {
+            color: var(--yellow-primary);
+        }
+
+        footer a {
+            color: var(--yellow-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="bitcredit.jpg" alt="BitCredit Logo">
+            <span class="logo-text">Bit<span>Credit</span></span>
+        </a>
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Back to Home
+        </a>
+    </nav>
+
+    <!-- Terms Content -->
+    <div class="terms-container">
+        <div class="terms-header">
+            <h1>Terms and <span>Conditions</span></h1>
+            <p>Last updated: December 2025</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing and using BitCredit's services, website, and Bitcoin Layer 2 sidechain platform, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>2. Description of Services</h2>
+            <p>BitCredit provides a Bitcoin Layer 2 sidechain platform that enables:</p>
+            <ul>
+                <li>Fast and low-cost transactions</li>
+                <li>Smart contract functionality on Bitcoin</li>
+                <li>Bridging of assets between Bitcoin mainnet and the BitCredit sidechain</li>
+                <li>Related blockchain infrastructure services</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h2>3. Eligibility</h2>
+            <p>You must be at least 18 years old and capable of forming a binding contract to use our services. By using BitCredit, you represent that you meet these requirements and that your use complies with all applicable laws in your jurisdiction.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>4. User Responsibilities</h2>
+            <p>When using our services, you agree to:</p>
+            <ul>
+                <li>Provide accurate and complete information</li>
+                <li>Maintain the security of your private keys and wallet credentials</li>
+                <li>Not use the platform for any illegal or unauthorized purposes</li>
+                <li>Not attempt to interfere with or compromise the platform's security</li>
+                <li>Comply with all applicable laws and regulations</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h2>5. Risks</h2>
+            <p>You acknowledge and accept that:</p>
+            <ul>
+                <li>Cryptocurrency and blockchain technologies involve significant risks</li>
+                <li>The value of digital assets can be highly volatile</li>
+                <li>Transactions on the blockchain are irreversible</li>
+                <li>You are solely responsible for securing your private keys</li>
+                <li>Technical issues or vulnerabilities may affect the platform</li>
+            </ul>
+        </div>
+
+        <div class="terms-section">
+            <h2>6. Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, Bitcredit Ltd. shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or digital assets, arising from your use of our services.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>7. Intellectual Property</h2>
+            <p>All content, trademarks, logos, and intellectual property displayed on the BitCredit platform are owned by Bitcredit Ltd. or its licensors. You may not use, reproduce, or distribute any content without prior written permission.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>8. Privacy</h2>
+            <p>Your use of our services is also governed by our Privacy Policy. We collect and process personal data in accordance with applicable data protection laws.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>9. Modifications</h2>
+            <p>We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting. Your continued use of the platform constitutes acceptance of the modified terms.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>10. Termination</h2>
+            <p>We may suspend or terminate your access to our services at any time, without prior notice, for conduct that we believe violates these terms or is harmful to other users, us, or third parties.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>11. Governing Law</h2>
+            <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of Seychelles. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of Seychelles.</p>
+        </div>
+
+        <div class="terms-section">
+            <h2>12. Contact Information</h2>
+            <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:mail@bitcredit.org">mail@bitcredit.org</a></p>
+            <p><strong>Company:</strong> Bitcredit Ltd.</p>
+            <p><strong>Location:</strong> Seychelles</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 <span>Bitcredit Ltd.</span> All rights reserved. | <a href="index.html">Home</a></p>
+    </footer>
+</body>
+</html>
+
